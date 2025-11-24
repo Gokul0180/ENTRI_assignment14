@@ -8,6 +8,8 @@ import { AuthContext } from './auth/AuthProvider'
 
 export default function App() {
   const { user, logout } = useContext(AuthContext)
+  // trigger deploy
+
 
   return (
     <div className="min-h-screen flex">
