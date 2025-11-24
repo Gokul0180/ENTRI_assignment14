@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background: #f4f4f4;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  margin-right: 12px;
+}
+
+.container {
+  padding: 20px;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 8px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  margin-right: 8px;
+  padding: 6px 14px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
